@@ -1,0 +1,32 @@
+{
+  "name": "karmatest",
+  "version": "1.0.0",
+  "description": "Karma test with Jasmin",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanlamic/karmaTest.git"
+  },
+  "keywords": [
+    "karma",
+    "with",
+    "gulp",
+    "example"
+  ],
+  "author": "Rajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanlamic/karmaTest/issues"
+  },
+  "homepage": "https://github.com/rajanlamic/karmaTest#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6"
+  }
+}
