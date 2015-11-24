@@ -9,25 +9,25 @@ JS.PlpM = function() {
 
     var _products = 'products';
 
-    getProducts = function() {
+    var _getProducts = function() {
         alert(_products + 'products alerted');
         console.log('products alerted');
         return _products;
     }
 
-    getSuccessResponse = function(response) {
+    var _getSuccessResponse = function(response) {
         console.log('response', response);
         alert('success' + JSON.stringify(response));
         return response + 'R';
     }
 
-    getErrorReponse = function(err) {
+    var _getErrorReponse = function(err) {
         console.log('err', err);
         alert('error' + JSON.stringify(err));
         return err + 'E';
     }
 
-    getAjaxProducts = function() {
+    var _getAjaxProducts = function() {
         var self = this;
         dojo.xhrGet({
             url: 'server.json',
@@ -41,7 +41,7 @@ JS.PlpM = function() {
         });
     }
 
-    bindElements = function() {
+    var _bindElements = function() {
         var self = this;
         dojo.connect(dojo.byId("plpM"), "click", function(e){
             self.getProducts();
@@ -53,12 +53,12 @@ JS.PlpM = function() {
     }
 
     return {
-        getProducts: getProducts,
-        bindElements: bindElements,
+        getProducts: _getProducts,
+        bindElements: _bindElements,
 
-        getAjaxProducts: getAjaxProducts,
-        getSuccessResponse: getSuccessResponse,
-        getErrorReponse: getErrorReponse
+        getAjaxProducts: _getAjaxProducts,
+        getSuccessResponse: _getSuccessResponse,
+        getErrorReponse: _getErrorReponse
     }
 
 }

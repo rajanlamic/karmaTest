@@ -1,18 +1,18 @@
 [
-  {
-  "type": "grocessories",
-  "products": [
-    'orange',
-    'apple',
-    'banana'
-  ]
-  },
-  {
-  "type": "clothing",
-  "products": [
-    'fashion',
-    'kinds',
-    'manswear'
-  ]
-  }
+{
+"type": "grocessories",
+"products": [
+'orange',
+'apple',
+'banana'
+]
+},
+{
+"type": "clothing",
+"products": [
+'fashion',
+'kinds',
+'manswear'
+]
+}
 ]
