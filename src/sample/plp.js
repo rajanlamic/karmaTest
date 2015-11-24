@@ -18,7 +18,10 @@
 //        });
 //    }
 //
+//    this.init = function(){
+//    }
+//    this.init();
 //}
 //
 //// app
-//new JS.Plp().bindElements();
+//new JS.Plp();
